@@ -13,6 +13,19 @@ namespace Tyuiu.TitkovAA.Sprint1.Task0.V0
         static void Main(string[] args)
         {
 
+            Console.WriteLine("*                                                                         *");
+            Console.Title = "Спринт #1 | Выполнил: Титков А. А. | РПСб-23-1";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Тема: создание итогового решения по спринту                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Выполнил: Титков А. А. | РПСб-23-1                                      *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* (48 / 12) - (48 / (6 / 4))                                              *");
+            Console.WriteLine("***************************************************************************");
+
+
             Console.WriteLine(DataService.Func());
             Console.ReadKey();
         }
