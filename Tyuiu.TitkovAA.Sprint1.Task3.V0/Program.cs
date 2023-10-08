@@ -21,7 +21,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task3.V0
             Console.Title = "Спринт #1 | Выполнил: Титков А. А. | РПСб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: создание итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: решение задания                                                   *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #10                                                             *");
             Console.WriteLine("* Выполнил: Титков А. А. | РПСб-23-1                                      *");
