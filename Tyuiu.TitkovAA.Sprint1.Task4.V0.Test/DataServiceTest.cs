@@ -1,6 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
+using Tyuiu.TitkovAA.Sprint1.Task4.V0.Lib;
+
 namespace Tyuiu.TitkovAA.Sprint1.Task4.V0.Test
 {
     [TestClass]
