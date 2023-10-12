@@ -27,8 +27,8 @@ namespace Tyuiu.TitkovAA.Sprint1.Task0.V0
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-
-            Console.WriteLine(DataService.Func());
+            DataService dt = new DataService();
+            Console.WriteLine(dt.Calculate());
             Console.ReadKey();
         }
     }

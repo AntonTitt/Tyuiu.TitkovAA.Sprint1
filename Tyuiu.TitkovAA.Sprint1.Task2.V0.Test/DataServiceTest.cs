@@ -11,7 +11,8 @@ namespace Tyuiu.TitkovAA.Sprint1.Task2.V0.Test
         [TestMethod]
         public void TestMethod1()
         {
-            double re = DataService.Func(45);
+            DataService dt = new DataService();
+            double re = dt.ConvertKmToM(45);
             Assert.AreEqual(re, 72.405);
         }
     }

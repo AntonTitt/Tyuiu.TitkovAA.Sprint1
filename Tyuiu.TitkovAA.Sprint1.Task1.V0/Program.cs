@@ -39,7 +39,8 @@ namespace Tyuiu.TitkovAA.Sprint1.Task1.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(DataService.Func(x, y));
+            DataService dt = new DataService();
+            Console.WriteLine(dt.Calculate(x, y));
         }
     }
 }
