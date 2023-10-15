@@ -12,9 +12,9 @@ namespace Tyuiu.TitkovAA.Sprint1.Task2.V0.Test
         public void TestMethod1()
         {
             DataService dt = new DataService();
-            double re = dt.ConvertKmToM(45);
+            double re = dt.ConvertKmToM(42);
 
-            Assert.AreEqual(re, 72.405);
+            Assert.AreEqual(re, 67.578);
         }
     }
 }
