@@ -41,9 +41,9 @@ namespace Tyuiu.TitkovAA.Sprint1.Task5.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            d = (int)(a - (int)a) * 10;
-
+            DataService dt = new DataService();
+            d = (int)dt.Calculate(a);
+            Console.WriteLine(d);
 
 
 
