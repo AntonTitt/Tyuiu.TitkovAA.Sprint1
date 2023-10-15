@@ -40,10 +40,10 @@ namespace Tyuiu.TitkovAA.Sprint1.Task6.V0
 
 
 
-
+            DataService dt = new DataService();
             for (int i = 0; i < a.Length; i++)
             {
-                Console.WriteLine(DataService.Func(a[i]));
+                Console.WriteLine(dt.MoveLetterToEnd(a[i]));
             }
         }
     }

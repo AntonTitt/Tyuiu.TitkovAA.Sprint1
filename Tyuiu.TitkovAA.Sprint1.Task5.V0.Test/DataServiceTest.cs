@@ -13,7 +13,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task5.V0.Test
         public void TestMethod1()
         {
             DataService dt = new DataService();
-            double res = dt.Calculate(564.456);
+            int res = dt.Calculate(564.456);
 
             Assert.AreEqual(res, 4);
 

@@ -13,12 +13,10 @@ namespace Tyuiu.TitkovAA.Sprint1.Task6.V0.Test
         public void TestMethod1()
         {
 
+            DataService dt = new DataService();
+            string res = dt.MoveLetterToEnd("abcd");
 
-            StringBuilder r = DataService.Func("abcd");
-            string a, b = "bcda";
-            a = Convert.ToString(r);
-
-            Assert.AreEqual(a, b);
+            Assert.AreEqual(res, "bcda");
 
 
 

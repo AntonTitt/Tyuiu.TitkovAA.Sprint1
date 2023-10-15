@@ -7,11 +7,11 @@ using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.TitkovAA.Sprint1.Task5.V0.Lib
 {
-    public class DataService:ISprint1Task1V13
+    public class DataService:ISprint1Task5V5
     {
-        public double Calculate(double x)
+        public int Calculate(double x)
         {
-            double d;
+            int d;
             d = (int)((x - (int)x) * 10);
             return d;
         }
