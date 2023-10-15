@@ -13,6 +13,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task1.V0.Test
         {
             DataService dt = new DataService();
             double r = dt.Calculate(55, 343);
+
             Assert.AreEqual(r, 336.875);
         }
     }

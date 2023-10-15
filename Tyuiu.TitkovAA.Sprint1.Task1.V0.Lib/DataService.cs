@@ -12,6 +12,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task1.V0.Lib
         public double Calculate(double x, double y)
         {
             return ((x * y) / (1 + x));
+
         }
     }
 }
