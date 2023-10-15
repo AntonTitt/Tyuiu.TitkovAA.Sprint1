@@ -15,7 +15,6 @@ namespace Tyuiu.TitkovAA.Sprint1.Task2.V0.Lib
         {
 
             return Math.Round(a * 1.609, 3);
-
         }
 
         

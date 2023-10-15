@@ -35,6 +35,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task2.V0
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             DataService dt = new DataService();
+
             Console.WriteLine(dt.ConvertKmToM(km));
 
 
