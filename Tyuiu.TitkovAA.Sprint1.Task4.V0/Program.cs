@@ -31,14 +31,15 @@ namespace Tyuiu.TitkovAA.Sprint1.Task4.V0
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите число: ");
-            double a;
+            double a,c;
             a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine((1 + Math.Cos(a)) / (Math.Sin(a) * Math.Sin(a)));
+            DataService dt = new DataService();
+            c = dt.Calculate(a);
+            Console.WriteLine(c);
 
         }
     }
