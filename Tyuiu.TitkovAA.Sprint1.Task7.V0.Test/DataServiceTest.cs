@@ -11,6 +11,9 @@ namespace Tyuiu.TitkovAA.Sprint1.Task7.V0.Test
         [TestMethod]
         public void TestMethod1()
         {
+            DataService dt = new DataService();
+            double res = dt.Calculate(4, 5);
+            Assert.AreEqual(res, 2, 1819393074694);
         }
     }
 }

@@ -41,8 +41,8 @@ namespace Tyuiu.TitkovAA.Sprint1.Task7.V0
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            z = Math.Pow(2, -x) + (5 * Math.Pow(x, 2)) / (3 * Math.Pow(x, 3)) - Math.Cos(Math.Pow(x, 2)) + Math.Sin(2 * x * y);
+            DataService dt = new DataService();
+            z = dt.Calculate(x,y);
 
             Console.WriteLine(z);
 
