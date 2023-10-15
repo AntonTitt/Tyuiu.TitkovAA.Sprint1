@@ -11,6 +11,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task0.V0.Lib
     {
         public double Calculate()
         {
+
             return (48 / 12) - (48 / (6 / 4));
         }
     }
