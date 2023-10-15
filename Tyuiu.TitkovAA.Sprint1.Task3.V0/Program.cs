@@ -32,12 +32,21 @@ namespace Tyuiu.TitkovAA.Sprint1.Task3.V0
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите число: ");
-            double a;
+            double a,c;
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(DataService.Func(a));
+            DataService dt = new DataService();
+            c = dt.NumberToMoney(6345.2314);
+
+            int z, b;
+            b = (int)a;
+            z = (int)((a - b) * 100);
+
+            string res = Convert.ToString(c) + " руб. -- это " + Convert.ToString(b) + " руб. " + Convert.ToString(z) + " коп.";
+
+            Console.WriteLine(res);
 
 
         }
