@@ -12,6 +12,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task5.V0.Lib
         public int Calculate(double x)
         {
             int d;
+
             d = (int)((x - (int)x) * 10);
             return d;
         }

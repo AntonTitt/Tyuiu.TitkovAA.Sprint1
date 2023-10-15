@@ -43,6 +43,7 @@ namespace Tyuiu.TitkovAA.Sprint1.Task5.V0
             Console.WriteLine("***************************************************************************");
             DataService dt = new DataService();
             d = (int)dt.Calculate(a);
+
             Console.WriteLine(d);
 
 
